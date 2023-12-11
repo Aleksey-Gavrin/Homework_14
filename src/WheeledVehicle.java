@@ -1,4 +1,4 @@
-public abstract class Vehicle {
+public abstract class WheeledVehicle implements Maintainable {
     private final String modelName;
     private final int wheelsCount;
 
@@ -10,7 +10,7 @@ public abstract class Vehicle {
         return wheelsCount;
     }
 
-    public Vehicle(String modelName, int wheelsCount) {
+    public WheeledVehicle(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }

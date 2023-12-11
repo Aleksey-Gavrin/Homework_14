@@ -1,4 +1,4 @@
-public class Bicycle extends Vehicle implements Maintainable {
+public class Bicycle extends WheeledVehicle {
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
        }

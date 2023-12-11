@@ -1,4 +1,4 @@
-public class Truck extends Car implements Maintainable{
+public class Truck extends MotorWheeledVehicle {
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
